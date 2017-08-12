@@ -125,6 +125,11 @@ a {
   position: relative;
 }
 
+.fa-github, .fa-linkedin, .fa-file-o, .fa-send {
+  -webkit-transition: color .5s;
+   transition: color .5s;
+}
+
 .fa-github:hover, .fa-linkedin:hover, .fa-file-o:hover, .fa-send:hover {
   color: #777;
 }
