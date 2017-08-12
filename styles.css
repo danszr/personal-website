@@ -175,9 +175,18 @@ a {
   }
 }*/
 
+@media (max-width: 670px) {
+  .social-icons {
+    top: 150px;
+  }
+}
+
 @media (max-width: 630px) {
   .first, .second {
     margin: 0;
+  }
+  .social-icons {
+    top: 150px;
   }
 }
 
@@ -192,6 +201,10 @@ a {
     margin-right: 30px;
     width: 35px;
     height: 35px;
+  }
+  .first {
+    margin-bottom: 20px;
+    display: block;
   }
 }
 
