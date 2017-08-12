@@ -199,4 +199,21 @@ a {
   .big-name {
     font-size: 60px;
   }
+  .list {
+    font-size: 25px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 325px) {
+  .list {
+    font-size: 20px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
 }
